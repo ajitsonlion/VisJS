@@ -1,6 +1,6 @@
 var edges = {
     arrows: {
-        to: {enabled: false, scaleFactor: 1},
+        to: {enabled: true, scaleFactor: 1},
         middle: {enabled: false, scaleFactor: 1},
         from: {enabled: false, scaleFactor: 1}
     },
@@ -24,7 +24,7 @@ var edges = {
     },
     hidden: false,
     hoverWidth: 1.5,
-    label: undefined,
+    label: "ajit",
     labelHighlightBold: true,
     length: undefined,
     physics: true,
