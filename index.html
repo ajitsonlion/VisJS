@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #mynetwork {
+            float: left;
+            width: 77vw;
+            height: 100vh;
+            overflow-x: visible;
+        }
+
+        #config {
+            float: right;
+            width: 20vw;
+            max-height: 100vh;
+            overflow-y: scroll;
+            padding: 2px;
+            border-left: 1px solid lightgray;
+
+        }
+
+        p {
+            font-size: 16px;
+            max-width: 700px;
+        }
+    </style>
+    <link type="text/css" href="css/vis.css"/>
+    <link type="text/css" href="css/bootstrap.css"/>
+    <link type="text/css" href="css/bootstrap-material-design.css"/>
+    <link type="text/css" href="css/ripples.css"/>
+</head>
+<body>
+
+<div id="mynetwork"></div>
+<div id="config"></div>
+<script type="application/javascript" src="js/vendor/jquery.js"></script>
+<script type="application/javascript" src="js/vendor/vis.js"></script>
+<script type="application/javascript" src="js/vendor/bootstrap.js"></script>
+
+<script type="application/javascript" src="js/vendor/material.js"></script>
+<script type="application/javascript" src="js/vendor/ripples.js"></script>
+
+<script type="application/javascript" src="js/vis-node.js"></script>
+<script type="application/javascript" src="js/vis-edge.js"></script>
+<script type="application/javascript" src="js/vis-group.js"></script>
+<script type="application/javascript" src="js/vis-interaction.js"></script>
+<script type="application/javascript" src="js/vis-layout.js"></script>
+
+<script type="application/javascript" src="js/vis-manipulation.js"></script>
+<script type="application/javascript" src="js/vis-physics.js"></script>
+<script type="application/javascript" src="js/vis-configure.js"></script>
+
+
+<script type="application/javascript" src="js/vis-options.js"></script>
+<script type="application/javascript" src="js/vis-graph.js"></script>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $.material.init();
+    });
+
+</script>
+</html>
