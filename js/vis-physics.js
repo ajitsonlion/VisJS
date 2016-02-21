@@ -6,10 +6,10 @@ var physics = {
 
     enabled: true,
     barnesHut: {
-        gravitationalConstant: -2000,
+        gravitationalConstant: -8000,
         centralGravity: 0.3,
-        springLength: 95,
-        springConstant: 0.04,
+        springLength: 100,
+        springConstant: 0.001,
         damping: 0.09,
         avoidOverlap: 0
     },
@@ -37,11 +37,11 @@ var physics = {
     },
     maxVelocity: 50,
     minVelocity: 0.1,
-    solver: 'barnesHut',
+    solver: 'forceAtlas2Based',
     stabilization: {
-        enabled: true,
-        iterations: 1000,
-        updateInterval: 100,
+        enabled: false,
+        iterations: 500,
+        updateInterval: 80,
         onlyDynamicEdges: false,
         fit: true
     },

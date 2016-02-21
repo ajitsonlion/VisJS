@@ -1,45 +1,28 @@
-var nodes = {
-    borderWidth: 1,
-    borderWidthSelected: 2,
+var nodess = {
+     borderWidthSelected: 2,
     brokenImage: undefined,
     color: {
         border: '#2B7CE9',
         background: '#97C2FC',
         highlight: {
-            border: '#2B7CE9',
-            background: '#D2E5FF'
+            border: '#0ff',
+            background: '#0ff'
         },
         hover: {
             border: '#2B7CE9',
-            background: '#f0f'
+            background: '#00f'
         }
     },
-    fixed: {
-        x: false,
-        y: false
-    },
+
     font: {
         color: '#343434',
         size: 14, // px
-        face: 'arial',
-        background: 'none',
-        strokeWidth: 0, // px
-        strokeColor: '#ffffff'
+        face: 'arial'
+
     },
-    group: undefined,
-    hidden: false,
-    /*
-     icon: {
-     face: 'FontAwesome',
-     code: undefined,
-     size: 50,  //50,
-     color: '#2B7CE9'
-     },
-     */
-    image: undefined,
-    label: undefined,
+
+
     labelHighlightBold: true,
-    level: undefined,
     mass: 1,
     physics: true,
     scaling: {
@@ -62,20 +45,9 @@ var nodes = {
             }
         }
     },
-    shadow: {
-        enabled: false,
-        color: 'rgba(0,0,0,0.5)',
-        size: 10,
-        x: 5,
-        y: 5
-    },
-    shape: 'circle',
-    shapeProperties: {
-        borderDashes: false, // only for borders
-        borderRadius: 6,     // only for box shape
-        useImageSize: false,  // only for image and circularImage shapes
-        useBorderWithImage: false  // only for image shape
-    },
+
+    shape: 'box',
+
     size: 25,
     title: "This is node",
     value: 50

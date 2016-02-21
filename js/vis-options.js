@@ -1,7 +1,7 @@
 /**
  * Created by ajits on 2/16/2016.
  */
-  options = {
+  var options = {
     autoResize: true,
     height: '100%',
     width: '100%',
@@ -10,7 +10,7 @@
     clickToUse: false,
     configure:configure,  // defined in the configure module.
     edges: edges,       // defined in the edges module.
-    nodes: nodes,        // defined in the nodes module.
+    nodes: nodess,        // defined in the nodes module.
     groups: groups,       // defined in the groups module.
     layout: layout,       // defined in the layout module.
     interaction: interaction, // defined in the interaction module.

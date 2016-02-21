@@ -8,15 +8,10 @@ var interaction = {
     hideNodesOnDrag: false,
     hover: true,
     hoverConnectedEdges: true,
-    keyboard: {
-        enabled: false,
-        speed: {x: 10, y: 10, zoom: 0.02},
-        bindToWindow: true
-    },
     multiselect: true,
     navigationButtons: true,
     selectable: true,
     selectConnectedEdges: true,
-    tooltipDelay: 300,
+    tooltipDelay: 30,
     zoomView: true
 };

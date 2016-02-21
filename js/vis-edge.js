@@ -4,7 +4,7 @@ var edges = {
         middle: {enabled: false, scaleFactor: 1},
         from: {enabled: false, scaleFactor: 1}
     },
-    arrowStrikethrough: true,
+    arrowStrikethrough: false,
     color: {
         color: '#848484',
         highlight: '#848484',
@@ -15,16 +15,15 @@ var edges = {
     dashes: false,
     font: {
         color: '#343434',
-        size: 14, // px
+        size: 6, // px
         face: 'arial',
         background: 'none',
-        strokeWidth: 2, // px
+        strokeWidth: 0, // px
         strokeColor: '#ffffff',
-        align: 'horizontal'
+        align: 'top'
     },
     hidden: false,
     hoverWidth: 1.5,
-    label: "ajit",
     labelHighlightBold: true,
     length: undefined,
     physics: true,
@@ -32,7 +31,7 @@ var edges = {
         min: 1,
         max: 15,
         label: {
-            enabled: true,
+            enabled: false,
             min: 14,
             max: 30,
             maxVisible: 30,
@@ -62,7 +61,5 @@ var edges = {
         type: "dynamic",
         roundness: 0.5
     },
-    title: undefined,
-    width: 1,
-    value: undefined
-};
+     width: 0
+ };
